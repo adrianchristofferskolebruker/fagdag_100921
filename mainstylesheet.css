@@ -1,0 +1,79 @@
+body{
+    background-color: #879973;
+    font-family: Bookman Old Style, serif
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 2px solid #bbb;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: #111;
+}
+li {
+    border-right: 2px solid #bbb;
+}
+li a:active{
+    background-color: #111;
+}
+
+li:last-child {
+    border-right: none;
+    border-left: 2px solid #bbb;
+}
+
+h1{
+    background-color:#CCE0B4;
+    text-align: center;
+    color: #495946;
+    font-family: "Matura MT Script Capitals", fantasy;
+    border: 3px solid #495946;
+    margin: 100;
+}
+#bilde1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#kilder{
+    margin-bottom:30px;
+}
+#nesteside{
+    float: right;
+    float: bottom;
+}
+#forrigeside{
+    float: left;
+    float: bottom;
+}
+
+#bokser{
+    width: 750px;
+    border: 15px solid #495946;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20 px;
+    padding-bottom: 20 px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #CCE0B4;
+    text-align: justify;
+
+table, th, tr {
+    border: 2px solid black;
+}
